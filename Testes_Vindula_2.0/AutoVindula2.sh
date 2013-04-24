@@ -8,6 +8,11 @@ echo "#       Iniciando o Python27             #"
 echo "##########################################"
 source /opt/Vindula2.0/bin/activate
 echo "##########################################"
+echo "#                Iniciando               #"
+echo "##########################################"
+echo "Apagando Portlets padroes."
+python /opt/Vindula2.0/vindula.teste/Testes_Vindula_2.0/IniciandoTestes.py
+echo "##########################################"
 echo "#           Criando Usuarios             #"
 echo "##########################################"
 echo "Criando Usuarios utilizados nos testes (Teste1, Teste2 e Teste3) ambos usuarios usam a senha teste!"
