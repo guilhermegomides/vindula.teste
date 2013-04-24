@@ -18,6 +18,11 @@ echo "##########################################"
 echo "Criando Usuarios utilizados nos testes (Teste1, Teste2 e Teste3) ambos usuarios usam a senha teste!"
 python /opt/vindula/app/vindula.teste/Testes_Vindula_2.0/CriandoUsuariosDeTeste.py
 echo "##########################################"
+echo "#            Testando Mural              #"
+echo "##########################################"
+echo "Testa o conteudo mural"
+python /opt/vindula/app/vindula.teste/Testes_Vindula_2.0/TestandoMural.py
+echo "##########################################"
 echo "#         Criando Pasta de Testes        #"
 echo "##########################################"
 echo "Criando pasta onde serao realizados os teste de aplicacao e conteudo"
