@@ -42,7 +42,7 @@ class TestandoReserva(unittest.TestCase):
         driver.find_element_by_id("form-widgets-duration").clear()
         driver.find_element_by_id("form-widgets-duration").send_keys("02:00")
         driver.find_element_by_id("form-widgets-contact").clear()
-        driver.find_element_by_id("form-widgets-contact").send_keys("guilhermepereira@liberiun.com")
+        driver.find_element_by_id("form-widgets-contact").send_keys("teste.vindula@gmail.com")
         driver.find_element_by_id("form-widgets-replic_semana-0").click()
         driver.find_element_by_id("form-widgets-replic_start").clear()
         driver.find_element_by_id("form-widgets-replic_start").send_keys("12:00")

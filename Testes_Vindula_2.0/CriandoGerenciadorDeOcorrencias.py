@@ -40,7 +40,7 @@ class CriandoGerenciadorDeOcorrencias(unittest.TestCase):
         driver.find_element_by_id("managers").clear()
         driver.find_element_by_id("managers").send_keys("administrador\nteste1")
         driver.find_element_by_id("mailingList").clear()
-        driver.find_element_by_id("mailingList").send_keys("guilhermepereira@liberiun.com")
+        driver.find_element_by_id("mailingList").send_keys("teste.vindula@gmail.com")
         driver.find_element_by_name("form.button.save").click()
         driver.find_element_by_css_selector("img").click()
 	print '-'*80

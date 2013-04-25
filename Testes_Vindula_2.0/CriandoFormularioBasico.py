@@ -37,7 +37,7 @@ class CriandoFormularioBasico(unittest.TestCase):
         driver.find_element_by_id("form-widgets-IBasic-description").send_keys("Teste")
         driver.find_element_by_id("form-widgets-acao_saida-0").click()
         driver.find_element_by_id("form-widgets-list_email").clear()
-        driver.find_element_by_id("form-widgets-list_email").send_keys("guilhermepereira@liberiun.com")
+        driver.find_element_by_id("form-widgets-list_email").send_keys("teste.vindula@gmail.com")
         driver.find_element_by_id("form-widgets-mensagem").clear()
         driver.find_element_by_id("form-widgets-mensagem").send_keys("Obrigado")
         driver.find_element_by_id("form-buttons-save").click()
