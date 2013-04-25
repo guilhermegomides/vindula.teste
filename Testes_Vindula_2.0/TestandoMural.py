@@ -1,3 +1,4 @@
+#-*-coding:latin1-*-
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
@@ -10,7 +11,7 @@ class TestandoMural(unittest.TestCase):
         self.driver.implicitly_wait(30)
         self.base_url = "http://localhost:8080/"
         self.verificationErrors = []
-        self.accept_next_alert = true
+#        self.accept_next_alert = true
     
     def test_ando_mural(self):
         driver = self.driver
